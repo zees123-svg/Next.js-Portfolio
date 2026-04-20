@@ -17,10 +17,56 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+
+  body {
+    background: linear-gradient(to bottom right, #111827, #1f2937);
+  }
+}
+
+/* Smooth scrolling for the whole page */
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
+  background: linear-gradient(to bottom right, #f9fafb, #f3f4f6);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+button, a {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Custom utility classes (Tailwind v4 way) */
+@utility text-gradient {
+  background: linear-gradient(to right, #2563eb, #9333ea);
+  background-clip: text;
+  color: transparent;
+}
+
+/* If you want the gradient background on body as in the original portfolio,
+   you can uncomment the lines below and adjust to your preference */
+/*
+body {
+  background: linear-gradient(to bottom right, #f9fafb, #f3f4f6);
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: linear-gradient(to bottom right, #111827, #1f2937);
+  }
+}
+*/
