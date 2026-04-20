@@ -19,12 +19,12 @@ This project is designed with a clean UI, smooth animations, and a mobile-friend
 
 ## 🛠️ Technologies Used
 
-| Frontend          | Tools & Libraries |
-|-------------------|-------------------|
-| HTML5, CSS3       | Font Awesome      |
-| Tailwind CSS      | Google Fonts      |
-| JavaScript        | VS Code Editor    |
-| React.js/Next.js  |                   |
+| Frontend                | Tools & Libraries |
+|-------------------------|-------------------|
+| HTML5, CSS3             | Font Awesome      |
+| Tailwind CSS            | Google Fonts      |
+| JavaScript, TypeScript  | VS Code Editor    |
+| React.js/Next.js        |                   |
 
 ## 👨‍💻 Author
 
