@@ -49,7 +49,7 @@ export const projects = [
     description: "Full-featured blog platform with content management, user authentication, and comment system.",
     tech: ["React.js", "Node.js", "Express.js", "MongoDB"],
     github: "https://github.com/zees123-svg/Syntecxhub_Mern-Blog-Application",
-    demo: "https://syntecxhub-mern-blog-application.vercel.app/blogs",
+    demo: "https://syntecxhub-mern-blog-application.vercel.app",
     image: "/projects/Blog.jfif",
     icon: "📱",
   },
