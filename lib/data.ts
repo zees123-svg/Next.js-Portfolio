@@ -31,7 +31,7 @@ export const projects = [
     description: "Real-time weather tracking with interactive google weather forecasts feature.",
     tech: ["React", "Weather API", "Javascript", "CSS"],
     github: "https://github.com/zees123-svg/Syntecxhub_Weather_App",
-    demo: "#",
+    demo: "https://zees123-svg.github.io/Syntecxhub_Weather_App/",
     image: "/projects/Weather.jfif",
     icon: "🌤️",
   },
